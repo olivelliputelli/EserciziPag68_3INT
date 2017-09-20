@@ -1,10 +1,10 @@
 ﻿using System;
 
-/// <summary>
-/// Esercizio svolto con l'istruzione if else if
-/// </summary>
-namespace Esercizio2
+namespace Esercizio2_Switch
 {
+    /// <summary>
+    /// Esercizio svolto con l'istruzione switch
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -29,25 +29,23 @@ namespace Esercizio2
             velocita = double.Parse(Console.ReadLine());
 
             // Elaborazione
-            if (condizioniAsfalto == 'R')
+            switch (condizioniAsfalto)
             {
-                coefficienteF = 0.6;
-            }
-            else if (condizioniAsfalto == 'L')
-            {
-                coefficienteF = 0.5;
-            }
-            else if (condizioniAsfalto == 'B')
-            {
-                coefficienteF = 0.4;
-            }
-            else if (condizioniAsfalto == 'G')
-            {
-                coefficienteF = 0.1;
-            }
-            else
-            {
-                coefficienteF = 0;
+                case 'R':
+                    coefficienteF = 0.6;
+                    break;
+                case 'L':
+                    coefficienteF = 0.5;
+                    break;
+                case 'B':
+                    coefficienteF = 0.4;
+                    break;
+                case 'G':
+                    coefficienteF = 0.1;
+                    break;
+                default:
+                    coefficienteF = 0;
+                    break;
             }
 
             spazioFrenata = Math.Pow(velocita, 2) / (250 * coefficienteF);
