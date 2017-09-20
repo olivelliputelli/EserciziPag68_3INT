@@ -19,9 +19,9 @@ namespace Esercizio2
             Console.WriteLine("");
             Console.WriteLine("Condizioni stradali");
             Console.WriteLine("R - Asfalto ruvido");
-            Console.WriteLine("L - Asfalto");
-            Console.WriteLine("B - Asfalto ");
-            Console.WriteLine("G - Asfalto ");
+            Console.WriteLine("L - Asfalto liscio");
+            Console.WriteLine("B - Asfalto bagnato");
+            Console.WriteLine("G - Asfalto ghiacciato");
             Console.Write("(R, L, B, G): ");
             condizioniAsfalto = char.Parse(Console.ReadLine().ToUpper());
 

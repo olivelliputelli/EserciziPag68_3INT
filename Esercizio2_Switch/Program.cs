@@ -15,13 +15,13 @@ namespace Esercizio2_Switch
             double spazioFrenata = 0.0d;
 
             // Input
-            Console.WriteLine("*** E S E R C I Z I O  N. 2  PAG.68 ***");
+            Console.WriteLine("*** E S E R C I Z I O  N. 2  PAG.68 con istruzione switch***");
             Console.WriteLine("");
             Console.WriteLine("Condizioni stradali");
             Console.WriteLine("R - Asfalto ruvido");
-            Console.WriteLine("L - Asfalto");
-            Console.WriteLine("B - Asfalto ");
-            Console.WriteLine("G - Asfalto ");
+            Console.WriteLine("L - Asfalto liscio");
+            Console.WriteLine("B - Asfalto bagnato");
+            Console.WriteLine("G - Asfalto ghiacciato");
             Console.Write("(R, L, B, G): ");
             condizioniAsfalto = char.Parse(Console.ReadLine().ToUpper());
 
@@ -32,7 +32,7 @@ namespace Esercizio2_Switch
             switch (condizioniAsfalto)
             {
                 case 'R':
-                    coefficienteF = 0.6;
+                    coefficienteF = 0.6;                
                     break;
                 case 'L':
                     coefficienteF = 0.5;
