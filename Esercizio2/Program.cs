@@ -7,7 +7,7 @@ namespace Esercizio2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double coefficienteF = 0.0d;
             double velocita = 0.0d;
