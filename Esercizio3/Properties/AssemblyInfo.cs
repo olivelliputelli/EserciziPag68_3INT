@@ -1,16 +1,15 @@
-﻿using System.Resources;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("Esercizio0")]
-[assembly: AssemblyDescription("Calcolo area e perimetro dim un triangolo")]
+[assembly: AssemblyTitle("Esercizio3")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("pippo spa")]
-[assembly: AssemblyProduct("Esercizio0")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Esercizio3")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("5f0a2f79-a6ff-44a1-b927-89a9628cca10")]
+[assembly: Guid("e55ed578-06f7-4f19-829c-10eb5e9e9210")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
@@ -35,5 +34,3 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: NeutralResourcesLanguage("it")]
-
